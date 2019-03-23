@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<databases>
+  <company>
+    <name>DResearch Fahrzeugelektronik GmbH</name>
+    <database>DFE_20170803</database>
+  </company>
+  <company>
+    <name>DResearch Digital Media Systems GmbH</name>
+    <database>DMS_20170803</database>
+  </company>
+  <company>
+    <name>Derovis GmbH</name>
+    <database>DVS_20170803</database>
+  </company>
+</databases>

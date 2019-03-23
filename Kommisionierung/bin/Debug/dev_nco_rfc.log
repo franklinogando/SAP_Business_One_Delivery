@@ -1,0 +1,3379 @@
+
+**** Log file opened by process 3708 at 2017-11-07 09:51:38 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 09:51:38.703 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination vm-lmk-saptsent -- no destination configuration registered
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+
+**** Log file opened by process 7072 at 2017-11-07 10:10:34 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:10:34.882 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidParameterException: No destination name provided - specify the parameter NAME
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+
+**** Log file opened by process 7312 at 2017-11-07 10:13:56 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:13:56.440 [Thread 10]
+SAP.Middleware.Connector.RfcConfigurationException: 10.32.10.185 is not a valid client
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   bei SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+
+**** Log file opened by process 7308 at 2017-11-07 10:14:53 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:14:53.614 [Thread 9]
+SAP.Middleware.Connector.RfcConfigurationException: 10.32.81.16 is not a valid client
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   bei SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+
+**** Log file opened by process 3648 at 2017-11-07 10:15:41 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:15:41.844 [Thread 8]
+SAP.Middleware.Connector.RfcConfigurationException: localhost is not a valid client
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   bei SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+
+**** Log file opened by process 7060 at 2017-11-07 10:16:17 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:16:17.810 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3301' not reached
+TIME        Tue Nov 07 10:16:17 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3301
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:16:17.818 [Thread 10]
+[ASHOST=10.32.81.16 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3301' not reached
+TIME        Tue Nov 07 10:16:17 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3301
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 7216 at 2017-11-07 10:18:20 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:18:20.351 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16:DFE_20170803 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:DFE_20170803' unknown
+TIME        Tue Nov 07 10:18:20 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:DFE_20170803' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:18:20.369 [Thread 10]
+[ASHOST=10.32.81.16:DFE_20170803 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:DFE_20170803' unknown
+TIME        Tue Nov 07 10:18:20 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:DFE_20170803' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 5664 at 2017-11-07 10:18:40 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:18:40.983 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16:30000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:18:40 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:18:40.991 [Thread 10]
+[ASHOST=10.32.81.16:30000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:18:40 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 6308 at 2017-11-07 10:19:26 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:19:26.307 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16:3000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:3000' unknown
+TIME        Tue Nov 07 10:19:26 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:3000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:19:26.315 [Thread 10]
+[ASHOST=10.32.81.16:3000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:3000' unknown
+TIME        Tue Nov 07 10:19:26 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:3000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 5412 at 2017-11-07 10:19:39 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:19:39.769 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16:30000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:19:39 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:19:39.779 [Thread 10]
+[ASHOST=10.32.81.16:30000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:19:39 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 5612 at 2017-11-07 10:24:39 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:24:39.913 [Thread 9]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=vm-lmk-saptsent:30000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname 'vm-lmk-saptsent:30000' unknown
+TIME        Tue Nov 07 10:24:39 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: 'vm-lmk-saptsent:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:24:39.924 [Thread 9]
+[ASHOST=vm-lmk-saptsent:30000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname 'vm-lmk-saptsent:30000' unknown
+TIME        Tue Nov 07 10:24:39 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: 'vm-lmk-saptsent:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 7824 at 2017-11-07 10:27:55 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:27:55.280 [Thread 9]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3301' not reached
+TIME        Tue Nov 07 10:27:55 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3301
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:27:55.303 [Thread 9]
+[ASHOST=10.32.81.16 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3301' not reached
+TIME        Tue Nov 07 10:27:55 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3301
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 4516 at 2017-11-07 10:28:18 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:28:18.342 [Thread 9]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16:30000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:28:18 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:28:18.357 [Thread 9]
+[ASHOST=10.32.81.16:30000 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:28:18 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 7560 at 2017-11-07 10:28:46 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:28:46.359 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16:8080 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:8080' unknown
+TIME        Tue Nov 07 10:28:46 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:8080' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:28:46.385 [Thread 10]
+[ASHOST=10.32.81.16:8080 SYSNR=01 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:8080' unknown
+TIME        Tue Nov 07 10:28:46 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:8080' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 6580 at 2017-11-07 10:45:04 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:45:04.293 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16:30000 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:45:04 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:45:04.310 [Thread 10]
+[ASHOST=10.32.81.16:30000 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:45:04 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 8148 at 2017-11-07 10:45:22 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:45:22.185 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 10:45:22 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:45:22.195 [Thread 10]
+[ASHOST=10.32.81.16 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 10:45:22 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 6232 at 2017-11-07 10:48:51 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:48:51.724 [Thread 9]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 10:48:51 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:48:51.733 [Thread 9]
+[ASHOST=10.32.81.16 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 10:48:51 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 4656 at 2017-11-07 10:49:13 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:49:13.312 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16:30000 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:49:13 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:49:13.320 [Thread 10]
+[ASHOST=10.32.81.16:30000 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:30000' unknown
+TIME        Tue Nov 07 10:49:13 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 7680 at 2017-11-07 10:49:48 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:49:48.920 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16:80 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:80' unknown
+TIME        Tue Nov 07 10:49:48 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:80' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:49:48.935 [Thread 10]
+[ASHOST=10.32.81.16:80 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.81.16:80' unknown
+TIME        Tue Nov 07 10:49:48 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.81.16:80' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 5856 at 2017-11-07 10:50:07 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:50:07.762 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 10:50:07 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:50:07.772 [Thread 10]
+[ASHOST=10.32.81.16 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 10:50:07 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 8076 at 2017-11-07 10:59:41 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 10:59:41.781 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 10:59:41 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 10:59:41.790 [Thread 10]
+[ASHOST=10.32.81.16 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 10:59:41 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 7708 at 2017-11-07 11:01:41 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:01:41.038 [Thread 10]
+SAP.Middleware.Connector.RfcConfigurationException: 000 is not a valid system number
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   bei SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+
+**** Log file opened by process 6512 at 2017-11-07 11:01:57 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:01:57.743 [Thread 10]
+SAP.Middleware.Connector.RfcConfigurationException: 30000 is not a valid system number
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   bei SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+
+**** Log file opened by process 7520 at 2017-11-07 11:02:44 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:02:44.537 [Thread 8]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 SYSNR=50 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3350' not reached
+TIME        Tue Nov 07 11:02:44 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:02:44.547 [Thread 8]
+[ASHOST=10.32.81.16 SYSNR=50 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3350' not reached
+TIME        Tue Nov 07 11:02:44 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 6712 at 2017-11-07 11:03:01 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:03:01.612 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 SYSNR=01 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3301' not reached
+TIME        Tue Nov 07 11:03:01 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3301
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:03:01.625 [Thread 10]
+[ASHOST=10.32.81.16 SYSNR=01 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3301' not reached
+TIME        Tue Nov 07 11:03:01 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3301
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 8008 at 2017-11-07 11:03:32 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:03:32.590 [Thread 9]
+SAP.Middleware.Connector.RfcConfigurationException: 001 is not a valid system number
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   bei SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+
+**** Log file opened by process 4112 at 2017-11-07 11:03:48 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:03:48.072 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 SYSNR=99 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3399' not reached
+TIME        Tue Nov 07 11:03:48 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3399
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:03:48.080 [Thread 10]
+[ASHOST=10.32.81.16 SYSNR=99 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3399' not reached
+TIME        Tue Nov 07 11:03:48 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3399
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 8012 at 2017-11-07 11:04:14 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:04:14.723 [Thread 10]
+Failure to create pool for destination DFE_20170803 (ORIGINAL) [ASHOST=10.32.81.16 SYSNR=18 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3318' not reached
+TIME        Tue Nov 07 11:04:14 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3318
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:04:14.735 [Thread 10]
+[ASHOST=10.32.81.16 SYSNR=18 USER=user01 PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DFE_20170803]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3318' not reached
+TIME        Tue Nov 07 11:04:14 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3318
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 3988 at 2017-11-07 11:07:36 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:07:36.031 [Thread 9]
+Failure to create pool for destination DResearch FE Live (ORIGINAL) [ASHOST=10.32.1.34 SYSNR=18 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3318' not reached
+TIME        Tue Nov 07 11:07:35 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3318
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:07:36.044 [Thread 9]
+[ASHOST=10.32.1.34 SYSNR=18 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3318' not reached
+TIME        Tue Nov 07 11:07:35 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3318
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 7368 at 2017-11-07 11:14:50 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:14:50.220 [Thread 10]
+Failure to create pool for destination DResearch FE Live (ORIGINAL) [ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:14:50 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:14:50.231 [Thread 10]
+[ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:14:50 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 7364 at 2017-11-07 11:19:54 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:19:54.665 [Thread 9]
+Failure to create pool for destination DResearch FE Live (ORIGINAL) [ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:19:54 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:19:54.679 [Thread 9]
+[ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:19:54 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 7708 at 2017-11-07 11:20:20 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:20:20.551 [Thread 9]
+Failure to create pool for destination DResearch FE Live (ORIGINAL) [ASHOST=10.32.1.34:30000 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.1.34:30000' unknown
+TIME        Tue Nov 07 11:20:20 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.1.34:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:20:20.564 [Thread 9]
+[ASHOST=10.32.1.34:30000 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       hostname '10.32.1.34:30000' unknown
+TIME        Tue Nov 07 11:20:20 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '10.32.1.34:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 1552 at 2017-11-07 11:20:44 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:20:44.560 [Thread 10]
+Failure to create pool for destination DResearch FE Live (ORIGINAL) [ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:20:44 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:20:44.578 [Thread 10]
+[ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:20:44 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 7952 at 2017-11-07 11:41:16 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 11:41:16.557 [Thread 8]
+Failure to create pool for destination DResearch FE Live (ORIGINAL) [ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:41:16 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:41:16.570 [Thread 8]
+[ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:41:16 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-11-07 11:41:42.222 [Thread 8]
+Failure to create pool for destination DResearch FE Live (ORIGINAL) [ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:41:42 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     4
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 11:41:42.236 [Thread 8]
+[ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:41:42 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     4
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-11-07 11:41:42.240 [Thread 8]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 11:41:42 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     4
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   bei SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   bei SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 3120 at 2017-11-07 12:19:59 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 12:19:59.656 [Thread 8]
+Failure to create pool for destination DResearch FE Live (ORIGINAL) [ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 12:19:59 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 12:19:59.668 [Thread 8]
+[ASHOST=10.32.1.34 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.1.34:3300' not reached
+TIME        Tue Nov 07 12:19:59 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.1.34:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 6800 at 2017-11-07 13:57:00 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 13:57:00.742 [Thread 9]
+Failure to create pool for destination DResearch FE Live (ORIGINAL) [ASHOST=10.32.81.16 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 13:57:00 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 13:57:00.755 [Thread 9]
+[ASHOST=10.32.81.16 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=DE POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=DResearch FE Live]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 13:57:00 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 3092 at 2017-11-07 14:03:25 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 14:03:25.213 [Thread 8]
+Failure to create pool for destination TMP_DVS_20171030 (ORIGINAL) [ASHOST=10.32.81.16 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=TMP_DVS_20171030]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 14:03:25 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 14:03:25.225 [Thread 8]
+[ASHOST=10.32.81.16 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 NAME=TMP_DVS_20171030]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 14:03:25 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+
+**** Log file opened by process 8360 at 2017-11-07 14:32:01 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\DFE_Kommissionierung\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-11-07 14:32:01.402 [Thread 9]
+Failure to create pool for destination TMP_DVS_20171030 (ORIGINAL) [ASHOST=10.32.81.16 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 SYSID=CF1 NAME=TMP_DVS_20171030]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 14:32:01 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-11-07 14:32:01.410 [Thread 9]
+[ASHOST=10.32.81.16 SYSNR=00 USER=manager PASSWD=******** CLIENT=000 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=600 SYSID=CF1 NAME=TMP_DVS_20171030]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host DMS2010 with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Tue Nov 07 14:32:01 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 7624 at 2018-08-29 11:01:20 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 11:01:20.294 [Thread 9]
+Failure to create pool for destination QA (ORIGINAL) [NAME=QA]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter GATEWAY_HOST missing 
+   bei SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options)
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 11:01:20.324 [Thread 9]
+[NAME=QA]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter GATEWAY_HOST missing 
+   bei SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options)
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 8036 at 2018-08-29 11:03:08 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 11:03:08.849 [Thread 8]
+Failure to create pool for destination QA (ORIGINAL) [NAME=QA]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter GATEWAY_HOST missing 
+   bei SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options)
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 11:03:08.879 [Thread 8]
+[NAME=QA]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter GATEWAY_HOST missing 
+   bei SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options)
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 8856 at 2018-08-29 11:07:01 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 11:07:01.418 [Thread 9]
+Failure to create pool for destination QA (ORIGINAL) [NAME=QA]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter GATEWAY_HOST missing 
+   bei SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options)
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 11:07:01.438 [Thread 9]
+[NAME=QA]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter GATEWAY_HOST missing 
+   bei SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options)
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 9788 at 2018-08-29 13:38:35 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 13:38:35.194 [Thread 9]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 13:38:35.204 [Thread 9]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination rfc -- no destination configuration registered
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+**** Log file opened by process 10200 at 2018-08-29 13:39:02 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 13:39:02.715 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 13:39:02.725 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination rfc -- no destination configuration registered
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+**** Log file opened by process 9160 at 2018-08-29 13:40:37 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 13:40:37.877 [Thread 8]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination rfc -- no destination configuration registered
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+**** Log file opened by process 7720 at 2018-08-29 13:44:15 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 13:44:15.856 [Thread 8]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+**** Log file opened by process 9036 at 2018-08-29 13:45:10 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 13:45:10.078 [Thread 9]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 13:45:18.698 [Thread 9]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'VM-SAPTSENT' unknown
+TIME        Wed Aug 29 13:45:18 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'VM-SAPTSENT' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 13:45:18.728 [Thread 9]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'VM-SAPTSENT' unknown
+TIME        Wed Aug 29 13:45:18 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'VM-SAPTSENT' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 1376 at 2018-08-29 13:46:04 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 13:46:04.440 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 13:46:08.730 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 13:46:08 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 13:46:08.750 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 13:46:08 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 5196 at 2018-08-29 13:46:53 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 13:46:53.931 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 13:46:53.951 [Thread 10]
+SAP.Middleware.Connector.RfcConfigurationException: 001 is not a valid system number
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   bei SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+**** Log file opened by process 7056 at 2018-08-29 13:47:48 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 13:47:48.589 [Thread 8]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 13:47:53.469 [Thread 8]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-LMK-SAPTSENT:30000 SYSNR=00 GWHOST=33]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname '33' unknown
+TIME        Wed Aug 29 13:47:53 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: '33' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 13:47:53.489 [Thread 8]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-LMK-SAPTSENT:30000 SYSNR=00 GWHOST=33]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname '33' unknown
+TIME        Wed Aug 29 13:47:53 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: '33' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 8256 at 2018-08-29 13:48:07 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 13:48:07.343 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 13:48:07.403 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-LMK-SAPTSENT:30000 SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'VM-LMK-SAPTSENT:30000' unknown
+TIME        Wed Aug 29 13:48:07 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'VM-LMK-SAPTSENT:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 13:48:07.423 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-LMK-SAPTSENT:30000 SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'VM-LMK-SAPTSENT:30000' unknown
+TIME        Wed Aug 29 13:48:07 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'VM-LMK-SAPTSENT:30000' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 8164 at 2018-08-29 14:15:19 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:15:19.724 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:15:20.814 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:15:20 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:15:20.844 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=001 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:15:20 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 6652 at 2018-08-29 14:18:09 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:18:09.920 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:18:11.010 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=000 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:18:10 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:18:11.040 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=000 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:18:10 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 8712 at 2018-08-29 14:20:22 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:20:22.543 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:20:23.633 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:20:23 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:20:23.663 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:20:23 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 10224 at 2018-08-29 14:21:10 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:21:10.104 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:21:11.184 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=50]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3350' not reached
+TIME        Wed Aug 29 14:21:11 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:21:11.224 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=50]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3350' not reached
+TIME        Wed Aug 29 14:21:11 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 9672 at 2018-08-29 14:21:23 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:21:23.524 [Thread 11]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:21:23.544 [Thread 11]
+SAP.Middleware.Connector.RfcConfigurationException: 4000 is not a valid system number
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   bei SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   bei SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   bei SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+**** Log file opened by process 2740 at 2018-08-29 14:22:00 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:22:00.040 [Thread 9]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:22:01.150 [Thread 9]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=50]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3350' not reached
+TIME        Wed Aug 29 14:22:01 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:22:01.180 [Thread 9]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=50]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3350' not reached
+TIME        Wed Aug 29 14:22:01 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 3792 at 2018-08-29 14:28:25 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:28:25.254 [Thread 8]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:28:26.344 [Thread 8]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=10.32.81.16 SYSNR=50]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3350' not reached
+TIME        Wed Aug 29 14:28:26 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:28:26.384 [Thread 8]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=10.32.81.16 SYSNR=50]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3350' not reached
+TIME        Wed Aug 29 14:28:26 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 10200 at 2018-08-29 14:28:44 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:28:44.108 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:28:45.188 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=10.32.81.16 SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:28:45 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:28:45.218 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=10.32.81.16 SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:28:45 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 1952 at 2018-08-29 14:30:25 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:30:25.540 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:30:26.650 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=SAPDB SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.1.50:3300' not reached
+TIME        Wed Aug 29 14:30:26 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.1.50:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:30:26.680 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=SAPDB SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.1.50:3300' not reached
+TIME        Wed Aug 29 14:30:26 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.1.50:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 6200 at 2018-08-29 14:30:37 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:30:37.051 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:30:38.161 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=SAPDB SYSNR=50]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.1.50:3350' not reached
+TIME        Wed Aug 29 14:30:38 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.1.50:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:30:38.201 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=SAPDB SYSNR=50]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.1.50:3350' not reached
+TIME        Wed Aug 29 14:30:38 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.1.50:3350
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 4696 at 2018-08-29 14:47:17 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:47:17.753 [Thread 9]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:47:18.843 [Thread 9]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:47:18 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:47:18.863 [Thread 9]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=EN ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:47:18 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 7496 at 2018-08-29 14:47:26 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 14:47:26.424 [Thread 9]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 14:47:27.514 [Thread 9]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:47:27 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 14:47:27.564 [Thread 9]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 14:47:27 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 9360 at 2018-08-29 15:00:12 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-29 15:00:12.213 [Thread 9]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-29 15:00:13.323 [Thread 9]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 15:00:13 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-29 15:00:13.393 [Thread 9]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Wed Aug 29 15:00:13 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 7492 at 2018-08-30 08:56:54 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-30 08:56:54.273 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.Config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-30 08:56:55.517 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Thu Aug 30 08:56:55 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-30 08:56:55.552 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Thu Aug 30 08:56:55 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 2392 at 2018-08-30 09:38:23 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-30 09:38:23.102 [Thread 9]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.Config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-30 09:38:24.179 [Thread 9]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Thu Aug 30 09:38:24 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-30 09:38:24.203 [Thread 9]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Thu Aug 30 09:38:24 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 5656 at 2018-08-30 09:38:36 (UTC+02:00 Mitteleuropäische Sommerzeit)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe
+Working directory: C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DMS2010, IP address: 10.32.10.185, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-08-30 09:38:36.597 [Thread 10]
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: Unbekanntes Element "destination". (C:\work\SAP_TestAddons\Kommisionierung\Kommisionierung\bin\Debug\Kommisionierung.vshost.exe.Config line 22)
+   bei System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   bei System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   bei System.Configuration.ConfigurationSectionCollection.Get(String name)
+   bei System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   bei SAP.Middleware.Connector.RfcConfigParameters..cctor()
+>> Error entry 2018-08-30 09:38:37.725 [Thread 10]
+Failure to create pool for destination rfc (ORIGINAL) [NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Thu Aug 30 09:38:37 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-08-30 09:38:37.793 [Thread 10]
+[NAME=rfc USER=manager PASSWD=******** CLIENT=110 LANG=DE ASHOST=VM-LMK-SAPTSENT SYSNR=00]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.32.81.16:3300' not reached
+TIME        Thu Aug 30 09:38:37 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.32.81.16:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   bei SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   bei SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   bei SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   bei SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   bei SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   bei SAP.Middleware.Connector.RfcDestination.Ping()
